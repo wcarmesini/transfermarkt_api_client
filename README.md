@@ -3,11 +3,13 @@
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-green?style=for-the-badge&logo=node.js)
 ![Axios](https://img.shields.io/badge/Axios-^1.12.2-blue?style=for-the-badge&logo=axios)
 ![Node-Cache](https://img.shields.io/badge/Node--Cache-^5.1.2-orange?style=for-the-badge&logo=npm)
+![License](https://img.shields.io/badge/license-MIT-lightgrey?style=for-the-badge)
 
 A lightweight and efficient Node.js client designed to interact with the [Transfermarkt](https://www.transfermarkt.com/) API.  
 This project enables fetching detailed data on players, clubs, competitions, matches, referees, coaches, and stadiums, incorporating an integrated caching system to optimize performance and reduce redundant requests.
 
-⚠️ Note: While this API is used officially by Transfermarkt on their website, it is not publicly documented or intended for external use. Therefore, this client is considered unofficial.
+⚠️ **Note**: While this API is officially used by Transfermarkt on their website, it is **not publicly documented or intended for external use**.  
+Because of this, endpoints and responses may change **at any time without prior notice**.
 
 ---
 
@@ -24,7 +26,7 @@ This project enables fetching detailed data on players, clubs, competitions, mat
 - [🌐 API Endpoints](#-api-endpoints)
 - [🤝 Contribution](#-contribution)
 - [📄 License](#-license)
-- [👨‍💻 Author](#-author)
+- [👨 Author](#-author)
 - [🔗 References](#-references)
 
 ---
@@ -83,11 +85,15 @@ Create a file named `example.js` (or similar) and add the following code:
 import { playerProfile } from './src/services/index.js';
 import util from 'node:util';
 
-// Fetch the profile of the player with ID 28003 (Lionel Messi, example only)
-const result = await playerProfile(28003);
+async function run() {
+  // Fetch the profile of the player with ID 28003 (Lionel Messi, example only)
+  const result = await playerProfile(28003);
 
-// Print the result to the console in a readable format
-console.log(util.inspect(result, { showHidden: false, depth: null, colors: true }));
+  // Print the result to the console in a readable format
+  console.log(util.inspect(result, { showHidden: false, depth: null, colors: true }));
+}
+
+run();
 ```
 
 To run the example:
@@ -181,8 +187,6 @@ Examples of endpoints:
 - `club/4` → Club information (FC Barcelona)
 - `competition/GB1` → Competition details (Premier League)
 
-⚠️ **Note**: Although the API is officially used by Transfermarkt on their website, it is not publicly documented or intended for external use. Because of this, endpoints and responses may change at any time without prior notice.
-
 ---
 
 ## 🤝 Contribution
@@ -221,5 +225,5 @@ See the [LICENSE](LICENSE) file for details.
 ## 🔗 References
 
 - [Transfermarkt Official Website](https://www.transfermarkt.com/)
-- [Axios GitHub Repository](https://axios-http.com/)
+- [Axios GitHub Repository](https://github.com/axios/axios)
 - [Node-Cache npm Package](https://www.npmjs.com/package/node-cache)
