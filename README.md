@@ -211,7 +211,7 @@ See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👨‍💻 Author
+## 👨 Author
 
 **Wilson Valentim Carmesini**  
 - GitHub: [@wcarmesini](https://github.com/wcarmesini)
