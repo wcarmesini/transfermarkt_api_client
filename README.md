@@ -7,6 +7,8 @@
 A lightweight and efficient Node.js client designed to interact with the (unofficial) Transfermarkt API.  
 This project enables fetching detailed data on players, clubs, competitions, matches, referees, coaches, and stadiums, incorporating an integrated caching system to optimize performance and reduce redundant requests.
 
+⚠️ Note: While this API is used officially by Transfermarkt on their website, it is not publicly documented or intended for external use. Therefore, this client is considered unofficial.
+
 ---
 
 ## 📚 Table of Contents
