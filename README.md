@@ -4,7 +4,7 @@
 ![Axios](https://img.shields.io/badge/Axios-^1.12.2-blue?style=for-the-badge&logo=axios)
 ![Node-Cache](https://img.shields.io/badge/Node--Cache-^5.1.2-orange?style=for-the-badge&logo=npm)
 
-A lightweight and efficient Node.js client designed to interact with the (unofficial) Transfermarkt API.  
+A lightweight and efficient Node.js client designed to interact with the [Transfermarkt](https://www.transfermarkt.com/) API.  
 This project enables fetching detailed data on players, clubs, competitions, matches, referees, coaches, and stadiums, incorporating an integrated caching system to optimize performance and reduce redundant requests.
 
 ⚠️ Note: While this API is used officially by Transfermarkt on their website, it is not publicly documented or intended for external use. Therefore, this client is considered unofficial.
