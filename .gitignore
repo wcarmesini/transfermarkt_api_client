@@ -33,3 +33,4 @@ build/
 # IDE/editor configs
 .vscode/
 .idea/
+news_endpoints.txt
