@@ -184,7 +184,7 @@ https://tmapi-alpha.transfermarkt.technology/
 
 Examples of endpoints:
 - `player/28003` → Player profile (Lionel Messi)
-- `club/4` → Club information (FC Barcelona)
+- `club/131` → Club information (FC Barcelona)
 - `competition/GB1` → Competition details (Premier League)
 
 ---
