@@ -12,6 +12,10 @@ This project enables fetching detailed data on players, clubs, competitions, mat
 
 ---
 
+⭐ If you find this project useful, consider giving it a star!
+
+---
+
 ## 📚 Table of Contents
 
 - [📝 Project Overview](#-project-overview)
